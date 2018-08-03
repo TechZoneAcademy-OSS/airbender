@@ -30,10 +30,11 @@ host="103.21.58.231"
 port=21
 
 
+
 a=AirBender(sys.argv[1])
 #a.airveda_login()
 #	time.sleep(10)
-
+'''
 while True:
 	a.driver.close()
 	a.driver=a.get_driver()
@@ -51,4 +52,4 @@ while True:
 
 #airvedafiles=a.airveda_update()
 #thingspeakfiles=a.thingspeak_update()
-
+'''
